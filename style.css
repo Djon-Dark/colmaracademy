@@ -8,10 +8,20 @@ body{
     display: flex;
     flex-direction: column;
     background-color: white;
+    color: rgb(70, 70, 70);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    margin: 0;
+    padding: 0;
+}
+/*
+h1{
+    font-size: 45px;
 }
 
+h3{
+    font-size: 24px;
+}
+*/
 nav{
     display: flex;
     align-items: center;
@@ -20,7 +30,6 @@ nav{
     line-height: 32px;
     font-size: 20px;
     padding: 0 24px;
-    
 }
 
 .logo{
@@ -28,18 +37,18 @@ nav{
     width: 300px;
     height: 64px;
     align-items: center;
-    font-size: 26px;
+    font-size: 24px;
 }
 
 .logo img{
-    height: 64px;  
+    height: 48px;  
 }
 
 .colmar{
     color: rgb(70, 70, 70); 
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
+
 .academy{
     color: gray;
     font-weight: lighter;
@@ -48,14 +57,36 @@ nav{
 .nav-buttons{
     display: flex;
     list-style: none;
-    flex-direction: row;
-    
+    flex-direction: row;  
 }
 
 .nav-buttons li{
-    margin: auto 16px;
+    margin: auto 8px;
 }
 
-.bigbox 1{
+.bigbox1 {
+    display: flex;
+    background-color: lightgray;
+    align-items: center;
+}
 
+.bigbox1 img{
+    margin: 32px 24px;
+    width: 60%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 30%;
+    margin: 24px auto;
+}
+
+button{
+    padding: 8px;
+    width: 85%;
+    margin: 24px 0;
+    background-color: rgb(70, 70, 70);
+    color: white;
 }
