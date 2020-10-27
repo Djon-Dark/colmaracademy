@@ -99,7 +99,7 @@ nav{
 }
 
 .left p{
-    margin: 32px auto 24px auto;
+    margin: 32px auto 32px auto;
 }
 
 .one .right{
@@ -219,5 +219,24 @@ video{
 
 .four .left,
 .four .right{
-    margin-top: 0;;
+    margin-top: 0;
+}
+
+.four .left{
+    margin-bottom: 0;;
+}
+
+.four .extra{
+    margin-bottom: 0;;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px;
+}
+
+footer a{
+    color: gray;
+    text-decoration: none;
 }
