@@ -149,11 +149,13 @@ button{
 
 .featurete h3,
 .featurete p,
-.featurete a{
+.featurete a,
+.content h3,
+content p{
     margin: 4px 0;
 }
 
-.bigbox .three{
+.three{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -161,9 +163,23 @@ button{
 }
 
 .grid{
- 
+    margin: auto 72px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 32px;
+
 }
 
 .block{
-    margin:32px;
+    background-color: white;
+}
+
+.block img{
+    margin: 0;
+}
+
+.block .content{
+    padding: 16px;
+    
 }
