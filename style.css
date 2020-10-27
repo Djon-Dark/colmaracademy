@@ -9,19 +9,26 @@ body{
     flex-direction: column;
     background-color: white;
     color: rgb(70, 70, 70);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
 }
-/*
+
+a{
+    color: rgb(0, 162, 255);
+    text-decoration: none;
+}
+
 h1{
     font-size: 45px;
+    font-weight: 900;
 }
 
 h3{
-    font-size: 24px;
+    font-size: 26px;
+    font-weight: 700;
 }
-*/
+
 nav{
     display: flex;
     align-items: center;
@@ -64,29 +71,70 @@ nav{
     margin: auto 8px;
 }
 
-.bigbox1 {
-    display: flex;
-    background-color: lightgray;
-    align-items: center;
+.bigbox {
+    display: flex; 
+
 }
 
-.bigbox1 img{
-    margin: 32px 24px;
+.one{
+    background-color: lightgrey;
+}
+
+.left{
     width: 60%;
+    margin: 32px 24px;
 }
 
-.content{
+.bigbox img{
+    width: 100%;
+}
+
+.left p{
+    margin: 32px auto 24px auto;
+}
+
+.one .right{
     display: flex;
     flex-direction: column;
-    text-align: start;
-    width: 30%;
-    margin: 24px auto;
+    justify-content: center;
+    width: 40%;
+
+}
+
+.right div{
+    width: 100%;
+}
+
+.two .right{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: flex-start;
+    margin-top: 16px;
 }
 
 button{
     padding: 8px;
-    width: 85%;
+    width: 80%;
     margin: 24px 0;
     background-color: rgb(70, 70, 70);
     color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.featurete{
+    display: flex;
+}
+
+.featurete .img{
+    width:40%;
+    padding: 16px;
+}
+
+.featurete .content{
+    width: 65%;
+}
+
+.guest{
+    background-color: lightgrey;
 }
