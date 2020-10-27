@@ -27,6 +27,8 @@ h1{
 h2{
     font-size: 35px;
     font-weight: 900;
+    margin-top: 0;;
+    margin-bottom: 32px;
 }
 
 h3{
@@ -78,7 +80,6 @@ nav{
 
 .bigbox {
     display: flex; 
-
 }
 
 .one{
@@ -90,6 +91,9 @@ nav{
     margin: 32px 24px;
 }
 
+.two .left img{
+    margin-bottom: 32px;
+}
 .bigbox img{
     width: 100%;
 }
@@ -110,7 +114,7 @@ nav{
     width: 100%;
 }
 
-.two .right{
+.right{
     display: flex;
     flex-direction: column;
     width: 40%;
@@ -162,6 +166,8 @@ content p{
     background-color: lightgray;
 }
 
+
+
 .grid{
     margin: auto 72px;
     display: grid;
@@ -182,4 +188,36 @@ content p{
 .block .content{
     padding: 16px;
     
+}
+
+/* PART 4 */
+.four{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.four .heading{
+    width: 100%;
+    text-align: center;
+}
+
+.fourtwo{
+    display: flex;
+}
+
+video{
+    width: 100%;
+}
+
+.extra{
+    margin: 32px auto;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+}
+
+.four .left,
+.four .right{
+    margin-top: 0;;
 }
