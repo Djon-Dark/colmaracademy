@@ -46,6 +46,15 @@ nav{
     padding: 0 24px;
 }
 
+nav img{
+    display: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(70, 70, 70)
+}
+
 .logo{
     display: flex;
     width: 300px;
@@ -239,4 +248,45 @@ footer{
 footer a{
     color: gray;
     text-decoration: none;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+    nav{
+        height: 64px;
+        display: flex;
+    }
+
+    nav img{
+        display: block;
+        height: 30px;
+    }
+    nav span{
+        display: none;
+    }
+
+    .logo img{
+        height: 40px;
+    }
+
+    .logo{
+        width: 25%;
+    }
+
+    .navigation{
+        width: 75%;
+    }
+
+    .nav-buttons{
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    }
+
+    #companies{
+        display: none;
+    }
 }
